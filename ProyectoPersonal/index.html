@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Personal</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <img src="ministerio.png" alt="foto del ministerio de educacucación">
+    <div class="principal">
+        <div class="info" id="info">
+            <form class="formulario" action="https://google.es">
+                <input type="text" id="tareaInput" placeholder="Nombre para la tarea"><br>
+                <textarea class="dsc" name="desc" id="dsc" cols="30" rows="10" placeholder="Descripción de la tarea"></textarea><br>
+                <input type="button" class="boton" id="btn-agregar" value="Guardar Tarea">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="tareas">
+        <div class="info">
+            <ul class="lista" id="lista"></ul>
+        </div>
+    </div>
+    <audio id="himno" autoplay>
+            <source src="himnoespaña.mp3" type="audio/mp3">
+        </audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

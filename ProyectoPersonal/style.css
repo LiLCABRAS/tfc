@@ -1,0 +1,76 @@
+    body {
+        background-image: url(fondo.png);
+        font-family: arial, helvetica, sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        text-decoration: none;
+    }
+    
+    ul {
+        text-decoration: none;
+    }
+    
+    textarea {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #info {
+        text-align: center;
+        display: block;
+    }
+    
+    #tareaInput {
+        border-radius: 18px;
+        border: #fabe00 3px solid;
+        background-color: #fff7ec;
+        color: salmon;
+        margin-top: 50px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #dsc {
+        border-radius: 18px;
+        border: #fabe00 3px solid;
+        background-color: #fff7ec;
+        color: salmon;
+        text-align: center;
+    }
+    
+    #btn-agregar {
+        padding: 15px;
+        border-radius: 18px;
+        border: #fabe00 3px solid;
+        background-color: #fff7ec;
+        color: salmon;
+    }
+    
+    .tareas .lista li a:hover {
+        text-decoration: line-through;
+    }
+    
+    .tareas .lista li a {
+        color: #212121;
+        padding: 20px 0;
+        text-decoration: none;
+    }
+    
+    .tareas {
+        display: block;
+    }
+    
+    textarea {
+        background: #FAFAFA;
+        font-family: arial, helvetica, sans-serif;
+    }
+    
+    img {
+        padding-bottom: 25px;
+    }
